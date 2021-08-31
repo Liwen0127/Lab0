@@ -100,11 +100,14 @@ public class Candidate {
 			return false;
 		}
 	}
+	public static void main(String[] args) {
+		Candidate candidate1 = new Candidate("Indira Patel", "Demopublican", 35400);
+		Candidate candidate2 = new Candidate("Susan", "Demopublican", 32400);
+		Candidate candidate3 = new Candidate("Jake", "Demopublican", 25400);
+		System.out.println(candidate1.getName() + ": " + candidate1.getVotes());
+		
+	}
+
 	
 
-}
-public static void main(String[] args) {
-	Candidate candidate1 = new Candidate("Indira Patel", "Demopublican", 35400);
-	System.out.println(candidate1.getName() + ": " + candidate1.getVotes());
-	
 }
